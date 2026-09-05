@@ -1,0 +1,18 @@
+{
+  "name": "ecommerce-support-chat-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/support_chat.ts",
+    "test": "tsx test/support_chat.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.3"
+  }
+}
